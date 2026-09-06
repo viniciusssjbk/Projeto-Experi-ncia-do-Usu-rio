@@ -3,54 +3,30 @@
 > **_NOTE:_**: Esta entrega consolida e sintetiza os dados coletados na etapa de Pesquisa e Coleta de Dados com Usuários, caracterizando o público-alvo real antes de criar as personas (arquétipos fictícios). Aqui ainda não há personagem — são dados e padrões observados nos participantes reais.
 
 1) **Perfil Demográfico**
-- Faixa etária, gênero, escolaridade, ocupação, localização geográfica e outros dados demográficos relevantes ao produto/serviço.
+Este documento consolida e sintetiza os dados obtidos no formulário de pesquisa com usuários reais,
+caracterizando o comportamento e os padrões do público-alvo antes da definição dos arquétipos fictícios (personas).
+sobre gênero, escolaridade, renda localização e demais informações nesta etapa ainda não se foi obtido através das pesquisas
 
-2) **Perfil Comportamental e Tecnológico**
-- Nível de familiaridade com tecnologia (baixo/médio/alto) e dispositivos mais usados.
-- Frequência e contexto de uso de produtos/serviços similares.
-- Hábitos relevantes para o produto ou serviço em questão.
+3) **Perfil Comportamental e Tecnológico**
+Público-alvo: Frequentadores de academia regulares e praticantes de musculação/atividade física.
+Faixa etária predominante: Adultos jovens e pessoas em idade ativa com rotinas divididas entre trabalho/estudos e academia.
+Status de prática: Ampla maioria ativa — 10 de 13 participantes frequentam academia regularmente.
+Frequência semanal: A maioria mantém rotina consistente, com 7 de 13 participantes treinando cerca de 4 vezes por semana.
 
 3) **Necessidades e Dores Consolidadas**
-- Sintetize (não repita bruto) os principais achados da pesquisa: padrões que se repetiram entre os participantes, necessidades não atendidas e frustrações recorrentes.
-- Aponte, para cada necessidade/dor, quantos participantes (aproximadamente) a mencionaram — isso embasa a priorização nas próximas etapas.
+| Necessidade / Dor Identificada | Frequência / Evidência na Pesquisa | Impacto na Experiência do Usuário |
+| :--- | :--- | :--- |
+| **Acesso imediato ao treino do dia** | Número de participantes de acordo as pesquisas (pelo menos 5) | Usuários perdem tempo navegando em interfaces complexas antes de começar a treinar. |
+| **Esquecimento da rotina e exercícios** | 6 de 13 dependem apenas da memória | Gera quebra de ritmo, perda de foco e treinos incompletos. |
+| **Dificuldade no acompanhamento de cargas/evolução** | Citado recorrentemente como ponto de atrito | Impede a progressão adequada de sobrecarga e reduz o sentimento de evolução. |
+| **Interface burocrática e cadastro manual excessivo** | Reclamação comum sobre concorrentes | Aplicativos exigem criação manual demorada no meio da sessão de treino. |
+| **Monetização abusiva em funções essenciais** | Apontado nas queixas sobre apps atuais | Bloqueio de histórico ou funções básicas atrás de planos pagos. |
+| **Falta de flexibilidade para aparelhos ocupados** | Mencionada na rotina prática do salão | Dificuldade em alternar a ordem dos exercícios ou substituí-los rapidamente. | 
 
 4) **Segmentação (se aplicável)**
-- Caso os dados revelem mais de um grupo de usuários com necessidades distintas, descreva cada segmento e o que os diferencia.
-- Indique qual(is) segmento(s) será(ão) priorizado(s) como personas primárias.
+A análise dos dados agrupou os participantes em três perfis comportamentais claros:
+1. Praticante Regular Focado em Agilidade:Já conhece a rotina básica, mas quer registrar cargas e séries em poucos toques sem perder tempo entre os descansos.  Mapeado como: Persona Primária I.
+2. Praticante em Fase de Consolidação / Orientação:Necessita de suporte visual, clareza nas séries/repetições, controle do tempo de descanso e instruções para não errar a execução.  Mapeado como: Persona Primária II.
+3. Praticante Avançado / Autônomo:Domina os movimentos, memoriza rotinas com facilidade e busca personalização avançada de parâmetros sem bloqueios do sistema.  Mapeado como: Persona Secundária 
 
 ---
-
-## Exemplo de entrega
-
-> Continuação do exemplo fictício do app "Estuda+" (grupos de estudo universitários), consolidando os dados coletados na etapa de pesquisa. Copie a estrutura, não o conteúdo.
-
-### 1) Perfil Demográfico
-
-- Idade: 18 a 24 anos.
-- Escolaridade: cursando graduação (2º ao 6º semestre).
-- Ocupação: a maioria concilia estudo com estágio ou trabalho meio período (6 de 8 entrevistados).
-- Localização: região metropolitana, moradia com a família ou república estudantil.
-
-### 2) Perfil Comportamental e Tecnológico
-
-- Alta familiaridade com tecnologia: todos usam smartphone diariamente e ao menos um app de mensagens em grupo (WhatsApp ou Discord).
-- Uso de produtos similares: 7 de 8 entrevistados já tentaram organizar grupo de estudo por WhatsApp; nenhum usou um app dedicado a isso.
-- Contexto de uso predominante: à noite, entre aulas, e na semana anterior às provas.
-
-### 3) Necessidades e Dores Consolidadas
-
-| Necessidade/Dor | Frequência aproximada | Evidência |
-| :---- | :---- | :---- |
-| Dificuldade em combinar horário comum entre os membros | 7 de 8 entrevistados | "A gente ficava mandando mensagem por dias até fechar um horário" (E4) |
-| Grupo perde engajamento após 1-2 semanas | 6 de 8 entrevistados | Confirmado também nas respostas do questionário (68% relataram abandono do grupo) |
-| Falta de divisão clara de quem estuda qual tópico | 5 de 8 entrevistados | "Todo mundo estudava a mesma coisa e a gente repetia esforço" (E2) |
-| Preocupação com exposição de dados pessoais em grupos abertos | 3 de 8 entrevistados | Mencionado espontaneamente nas entrevistas |
-
-### 4) Segmentação
-
-Foram identificados dois perfis distintos entre os participantes:
-
-- **Organizador(a)** — toma a iniciativa de criar o grupo e cobrar andamento (2 de 8 entrevistados). Alta motivação, frustra-se com falta de resposta dos demais.
-- **Participante** — entra no grupo já formado, engaja-se enquanto há cobrança externa (6 de 8 entrevistados). Motivação mais dependente do grupo.
-
-Segmento priorizado como persona primária: **Participante**, por representar a maioria do público-alvo e concentrar as dores mais citadas (abandono do grupo, falta de divisão de tópicos).
