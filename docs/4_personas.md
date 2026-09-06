@@ -27,7 +27,7 @@
 
 ## 2. Persona Primária II: Mariana Alves
 
-![Mariana Alves](imagens/persoaIII.jpeg)
+![Mariana Alves](imagens/personaIIII.jpeg)
 
 | Campo | Descrição |
 | :--- | :--- |
