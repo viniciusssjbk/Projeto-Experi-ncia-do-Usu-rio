@@ -27,7 +27,7 @@
 
 ## 2. Persona Primária II: Mariana Alves
 
-![Mariana Alves](imagens/mariana_alves.jpeg)
+![Mariana Alves](imagens/persoaIII.jpeg)
 
 | Campo | Descrição |
 | :--- | :--- |
@@ -54,7 +54,7 @@
 
 ## 3. Persona Secundária: André Costa
 
-![André Costa](imagens/andre_costa.jpeg)
+![André Costa](imagens/personIIII.jpeg)
 
 | Campo | Descrição |
 | :--- | :--- |
