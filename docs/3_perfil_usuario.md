@@ -7,7 +7,8 @@ Este documento consolida e sintetiza os dados obtidos no formulário de pesquisa
 caracterizando o comportamento e os padrões do público-alvo antes da definição dos arquétipos fictícios (personas).
 sobre gênero, escolaridade, renda localização e demais informações nesta etapa ainda não se foi obtido através das pesquisas
 
-2) **Perfil Comportamental e Tecnológico**
+
+3) **Perfil Comportamental e Tecnológico**
    
 Público-alvo: Frequentadores de academia regulares e praticantes de musculação/atividade física.
 
