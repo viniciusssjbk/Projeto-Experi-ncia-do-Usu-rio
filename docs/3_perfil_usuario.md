@@ -10,8 +10,11 @@ sobre gênero, escolaridade, renda localização e demais informações nesta et
 2) **Perfil Comportamental e Tecnológico**
    
 Público-alvo: Frequentadores de academia regulares e praticantes de musculação/atividade física.
+
 Faixa etária predominante: Adultos jovens e pessoas em idade ativa com rotinas divididas entre trabalho/estudos e academia.
+
 Status de prática: Ampla maioria ativa — 10 de 13 participantes frequentam academia regularmente.
+
 Frequência semanal: A maioria mantém rotina consistente, com 7 de 13 participantes treinando cerca de 4 vezes por semana.
 
 3) **Necessidades e Dores Consolidadas**
