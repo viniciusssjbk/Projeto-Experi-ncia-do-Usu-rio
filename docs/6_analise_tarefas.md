@@ -1,187 +1,184 @@
-# Análise de Tarefas
+# Análise de Tarefas — Aplicativo de Treinos
 
-> **_NOTE:_**: Enquanto o Cenário de Análise/Problema descreve a situação em prosa, a Análise de Tarefas modela formalmente como o usuário executa as funcionalidades mais importantes da interface/produto. Isso alimenta diretamente a Arquitetura de Informação e o Fluxo do Usuário na próxima etapa.
-# Análise de Tarefas — Aplicativo de Organização e Acompanhamento de Treinos
+## 1. HTA — Iniciar um treino salvo
 
-## 1. HTA — Executar e registrar o treino do dia
+**Funcionalidade:** permitir que o usuário localize um treino salvo na tela “Meus Treinos” e inicie sua execução.
 
-**Funcionalidade:** permitir que o usuário acesse sua ficha de treino, consulte os exercícios planejados, registre séries, repetições e cargas e finalize o treino.
-
-O HTA (Hierarchical Task Analysis) representa a tarefa de executar um treino por meio de uma estrutura hierárquica, dividindo o objetivo principal em subtarefas e operações menores. Essa organização permite compreender as etapas necessárias para concluir a atividade e identificar situações que podem interferir na experiência do usuário, como a indisponibilidade de um equipamento.
+O HTA (Hierarchical Task Analysis) decompõe a tarefa em etapas menores para representar como o usuário interage com a interface até iniciar um treino. O modelo considera os elementos apresentados no protótipo, incluindo a navegação inferior, a seção de treinos salvos e o botão “Iniciar treino”.
 
 ### Diagrama HTA
 
 ```mermaid
 graph TD
-    A["0. Executar e registrar o treino<br/>Plano: 1>2>3"]
-    A --> B["1. Acessar o treino planejado<br/>Plano: 1>2"]
-    B --> B1["1.1 Abrir a área de treinos"]
-    B --> B2["1.2 Selecionar a ficha do dia"]
+    A["0. Iniciar um treino salvo<br/>Plano: 1>2>3"]
+    A --> B["1. Acessar Meus Treinos<br/>Plano: 1>2"]
+    B --> B1["1.1 Identificar o ícone de treinos na navegação inferior"]
+    B --> B2["1.2 Selecionar o ícone e abrir a tela"]
 
-    A --> C["2. Realizar e registrar os exercícios<br/>Plano: repetir 2.1>2.2>2.3 para cada exercício"]
-    C --> C1["2.1 Consultar o exercício e suas orientações"]
-    C --> C2["2.2 Verificar a disponibilidade do equipamento<br/>Plano: 1/2"]
-    C2 --> C2a["2.2.1 Equipamento disponível: manter o exercício"]
-    C2 --> C2b["2.2.2 Equipamento ocupado: escolher um substituto"]
-    C --> C3["2.3 Executar o exercício e registrar séries, repetições e carga"]
+    A --> C["2. Localizar o treino desejado<br/>Plano: 1/2"]
+    C --> C1["2.1 Percorrer a seção de treinos salvos"]
+    C --> C2["2.2 Utilizar a pesquisa para localizar o treino"]
 
-    A --> D["3. Encerrar o treino<br/>Plano: 1>2"]
-    D --> D1["3.1 Revisar os registros"]
-    D --> D2["3.2 Finalizar e salvar o treino"]
+    A --> D["3. Iniciar o treino selecionado<br/>Plano: 1>2"]
+    D --> D1["3.1 Identificar o botão 'Iniciar treino' do card escolhido"]
+    D --> D2["3.2 Selecionar o botão e aguardar a abertura do treino"]
 ```
 
-### Explicação dos planos de execução
+### Planos de execução
 
-* **Plano 0 (`1>2>3`):** o usuário acessa o treino planejado, realiza e registra os exercícios e, por último, encerra o treino.
-* **Plano 1 (`1>2`):** primeiro, abre a área de treinos e, depois, seleciona a ficha do dia.
-* **Plano 2:** para cada exercício da ficha, o usuário consulta as orientações, verifica a disponibilidade do equipamento e executa o exercício registrando os dados. Essa sequência é repetida até que todos os exercícios sejam tratados.
-* **Plano 2.2 (`1/2`):** se o equipamento estiver disponível, o usuário mantém o exercício planejado; caso esteja ocupado, seleciona um exercício substituto. As alternativas são excludentes para cada exercício.
-* **Plano 3 (`1>2`):** o usuário revisa os registros e, em seguida, finaliza e salva o treino.
+* **Plano 0 (`1>2>3`):** acessar a tela de treinos, localizar o treino desejado e iniciar sua execução.
+* **Plano 1 (`1>2`):** identificar o ícone de treinos na navegação inferior e selecioná-lo para abrir a tela “Meus Treinos”.
+* **Plano 2 (`1/2`):** localizar o treino percorrendo a lista de treinos salvos ou utilizando a pesquisa. O usuário escolhe uma dessas alternativas conforme sua necessidade.
+* **Plano 3 (`1>2`):** identificar o botão “Iniciar treino” correspondente ao treino escolhido e selecioná-lo.
 
-A funcionalidade busca reduzir as dificuldades relacionadas à organização dos exercícios e ao registro das informações durante a atividade física. Ao manter as etapas organizadas, o aplicativo pode facilitar o acompanhamento do treino e diminuir a necessidade de recorrer a anotações externas.
+### Explicação da funcionalidade
 
-## 2. GOMS — Criar uma ficha de treino personalizada
+A tela “Meus Treinos” apresenta exercícios mais praticados e uma seção de treinos salvos. Cada treino salvo pode apresentar informações resumidas, como o nome da ficha e a data do último treino, além do botão “Iniciar treino”.
 
-**Funcionalidade:** permitir que o usuário crie uma ficha de treino selecionando exercícios e definindo seus respectivos parâmetros.
+O usuário acessa essa tela pela navegação inferior, localiza a ficha desejada e inicia a atividade pelo botão correspondente. A organização das informações busca facilitar o acesso aos treinos e reduzir o tempo gasto procurando uma ficha.
 
-O modelo GOMS (Goals, Operators, Methods e Selection Rules) descreve os objetivos do usuário, os métodos disponíveis para alcançá-los, as condições para escolher cada método e as ações necessárias durante a interação.
+O protótipo também apresenta o botão “Iniciar novo treino”, que representa um caminho alternativo para começar uma atividade, sem necessariamente selecionar uma ficha salva.
+
+---
+
+## 2. GOMS — Interagir com uma publicação na tela inicial
+
+**Funcionalidade:** permitir que o usuário interaja com as publicações da comunidade por meio das opções de curtir, comentar e compartilhar.
 
 ```text
-GOAL 0: criar uma ficha de treino personalizada
+GOAL 0: interagir com uma publicação na tela inicial
 
-  GOAL 1: iniciar a criação da ficha
+  GOAL 1: localizar a publicação desejada
+    METHOD 1.A: selecionar uma publicação no feed
+      OP. 1.A.1: acessar a tela inicial
+      OP. 1.A.2: percorrer as publicações apresentadas
+      OP. 1.A.3: identificar a publicação desejada
 
-    METHOD 1.A: criar uma ficha vazia
-      (SEL. RULE: escolher este método quando o usuário quiser montar a ficha desde o início)
-      OP. 1.A.1: tocar em "Criar ficha"
-      OP. 1.A.2: selecionar "Ficha vazia"
-      OP. 1.A.3: verificar se o formulário foi aberto
+  GOAL 2: escolher uma forma de interação
 
-    METHOD 1.B: começar a partir de um modelo
-      (SEL. RULE: escolher este método quando houver um modelo adequado para personalizar)
-      OP. 1.B.1: tocar em "Criar ficha"
-      OP. 1.B.2: abrir a lista de modelos
-      OP. 1.B.3: selecionar um modelo
-      OP. 1.B.4: tocar em "Personalizar modelo"
+    METHOD 2.A: curtir a publicação
+      (SEL. RULE: escolher este método quando quiser demonstrar que gostou da publicação)
+      OP. 2.A.1: identificar o ícone de coração
+      OP. 2.A.2: tocar no ícone de coração
+      OP. 2.A.3: verificar a alteração visual do ícone
 
-  GOAL 2: definir os dados da ficha
-    METHOD 2.A: preencher os dados da ficha
-      OP. 2.A.1: tocar no campo de nome
-      OP. 2.A.2: digitar o nome da ficha
-      OP. 2.A.3: revisar o nome informado
+    METHOD 2.B: comentar a publicação
+      (SEL. RULE: escolher este método quando quiser escrever uma mensagem sobre a publicação)
+      OP. 2.B.1: identificar e tocar no ícone de comentário
+      OP. 2.B.2: aguardar a abertura da área de comentários
+      OP. 2.B.3: inserir o comentário
+      OP. 2.B.4: enviar o comentário
 
-  GOAL 3: adicionar exercícios à ficha
-    METHOD 3.A: selecionar exercícios na biblioteca
-      OP. 3.A.1: abrir a biblioteca de exercícios
-      OP. 3.A.2: pesquisar ou percorrer a lista de exercícios
-      OP. 3.A.3: selecionar um exercício
-      OP. 3.A.4: informar séries, repetições e, se necessário, a carga planejada
-      OP. 3.A.5: confirmar a inclusão do exercício
-      OP. 3.A.6: repetir as operações 3.A.2 a 3.A.5 para cada exercício desejado
-
-  GOAL 4: salvar a ficha
-    METHOD 4.A: salvar e conferir a ficha
-      OP. 4.A.1: tocar em "Salvar ficha"
-      OP. 4.A.2: verificar a confirmação de salvamento
-      OP. 4.A.3: conferir se a ficha aparece na lista de treinos
+    METHOD 2.C: compartilhar a publicação
+      (SEL. RULE: escolher este método quando quiser compartilhar a publicação)
+      OP. 2.C.1: identificar e tocar no ícone de compartilhamento
+      OP. 2.C.2: visualizar as opções apresentadas
+      OP. 2.C.3: selecionar uma opção de compartilhamento
+      OP. 2.C.4: verificar o resultado da ação
 ```
 
 ### Explicação da funcionalidade
 
-A criação de uma ficha personalizada permite que o usuário organize os exercícios de acordo com sua rotina e seus objetivos. Ele pode iniciar uma ficha vazia ou utilizar um modelo existente, preencher os dados necessários e adicionar exercícios à biblioteca. Para cada exercício, configura séries, repetições e outros parâmetros pertinentes. Como uma ficha pode conter vários exercícios, as operações de seleção e configuração são repetidas conforme necessário. A tarefa termina quando a ficha é salva e sua presença na lista de treinos é confirmada.
+A tela inicial apresenta publicações de usuários relacionadas à rotina de treinos. Cada publicação contém informações sobre o autor, o conteúdo compartilhado e, em alguns casos, um resumo do treino, incluindo duração e calorias informadas. Abaixo de cada publicação aparecem os ícones de coração, comentário e compartilhamento.
 
-## 3. GOMS — Substituir um exercício quando o equipamento estiver ocupado
+O usuário pode selecionar uma publicação e escolher uma dessas formas de interação. Cada ação possui uma sequência própria de operações, desde o reconhecimento do ícone até a confirmação da interação.
 
-**Funcionalidade:** permitir que o usuário substitua um exercício quando não puder utilizar o equipamento planejado, mantendo a continuidade do treino.
+As etapas posteriores ao toque nos ícones representam o comportamento esperado da funcionalidade. A forma exata de comentar e compartilhar deverá ser confirmada durante o desenvolvimento, pois o protótipo ainda não apresenta as telas correspondentes.
+
+---
+
+## 3. GOMS — Iniciar um novo treino
+
+**Funcionalidade:** permitir que o usuário inicie um treino por meio do botão “Iniciar novo treino”, apresentado na tela “Meus Treinos”.
 
 ```text
-GOAL 0: substituir um exercício indisponível
+GOAL 0: iniciar um novo treino
 
-  GOAL 1: acessar as opções de substituição
-    METHOD 1.A: iniciar a substituição durante o treino
-      OP. 1.A.1: localizar o exercício cujo equipamento está ocupado
-      OP. 1.A.2: tocar em "Substituir exercício"
-      OP. 1.A.3: observar as opções apresentadas
+  GOAL 1: acessar a funcionalidade de novo treino
+    METHOD 1.A: utilizar o botão da tela Meus Treinos
+      OP. 1.A.1: acessar a tela Meus Treinos pela navegação inferior
+      OP. 1.A.2: localizar o botão "Iniciar novo treino"
+      OP. 1.A.3: tocar no botão
+      OP. 1.A.4: aguardar a abertura da próxima tela
 
-  GOAL 2: escolher o exercício substituto
-
-    METHOD 2.A: selecionar uma sugestão do aplicativo
-      (SEL. RULE: escolher este método quando houver uma sugestão adequada disponível)
-      OP. 2.A.1: ler as informações da sugestão
-      OP. 2.A.2: verificar se o exercício pode ser realizado com os equipamentos disponíveis
-      OP. 2.A.3: selecionar a sugestão desejada
-      OP. 2.A.4: confirmar a substituição
-
-    METHOD 2.B: pesquisar outro exercício
-      (SEL. RULE: escolher este método quando nenhuma sugestão apresentada for adequada)
-      OP. 2.B.1: abrir a biblioteca de exercícios
-      OP. 2.B.2: digitar o nome do exercício ou aplicar um filtro
-      OP. 2.B.3: analisar os resultados
-      OP. 2.B.4: selecionar o exercício adequado
-      OP. 2.B.5: confirmar a substituição
-
-  GOAL 3: retomar o treino
-    METHOD 3.A: conferir a alteração e continuar
-      OP. 3.A.1: verificar se o exercício substituto aparece na ficha
-      OP. 3.A.2: consultar as orientações do exercício selecionado
-      OP. 3.A.3: iniciar a execução do exercício substituto
+  GOAL 2: prosseguir com o início do treino
+    METHOD 2.A: seguir as opções apresentadas pelo aplicativo
+      OP. 2.A.1: verificar as informações exibidas na próxima tela
+      OP. 2.A.2: identificar as opções disponíveis para iniciar o treino
+      OP. 2.A.3: selecionar a opção adequada
+      OP. 2.A.4: confirmar a ação, caso solicitado
 ```
 
 ### Explicação da funcionalidade
 
-A substituição de exercícios busca resolver uma situação comum nas academias: a indisponibilidade de um equipamento. O usuário pode selecionar uma sugestão apresentada pelo aplicativo ou pesquisar outra opção. Depois de confirmar a substituição, verifica se a ficha foi atualizada e consulta as orientações antes de continuar o treino.
+O botão “Iniciar novo treino” permite que o usuário comece uma nova atividade a partir da tela “Meus Treinos”. Após selecioná-lo, o aplicativo deverá apresentar as próximas etapas necessárias para iniciar o treino.
 
-Essa funcionalidade pode tornar o aplicativo mais flexível, mas as sugestões de substituição devem ser adequadas ao exercício original e às condições do usuário. A simples semelhança entre exercícios não garante que eles sejam equivalentes em todos os contextos.
+Como o protótipo não mostra a tela seguinte nem define se o usuário deverá escolher exercícios, montar uma ficha ou simplesmente iniciar uma sessão livre, o modelo não pressupõe uma dessas alternativas. O fluxo deverá ser detalhado quando a equipe definir esse comportamento.
 
-## 4. GOMS — Consultar a evolução de um exercício
+---
 
-**Funcionalidade:** permitir que o usuário consulte registros anteriores e compare informações de um exercício, como cargas utilizadas, séries e repetições.
+## 4. GOMS — Consultar as opções do perfil
+
+**Funcionalidade:** permitir que o usuário acesse o próprio perfil e selecione uma das áreas disponíveis, como histórico de treino, metas de peso, conquistas ou configurações.
 
 ```text
-GOAL 0: consultar a evolução de um exercício
+GOAL 0: consultar uma área do perfil
 
-  GOAL 1: acessar o histórico do exercício
+  GOAL 1: acessar a tela Meu Perfil
+    METHOD 1.A: utilizar o ícone de perfil na navegação inferior
+      OP. 1.A.1: identificar o ícone de perfil na barra inferior
+      OP. 1.A.2: tocar no ícone
+      OP. 1.A.3: aguardar a abertura da tela Meu Perfil
 
-    METHOD 1.A: acessar pela área de progresso
-      (SEL. RULE: escolher este método quando o usuário estiver na tela inicial ou quiser consultar o histórico geral)
-      OP. 1.A.1: abrir a área "Progresso" ou "Histórico"
-      OP. 1.A.2: localizar ou pesquisar o exercício
-      OP. 1.A.3: selecionar o exercício desejado
+  GOAL 2: selecionar a área desejada
 
-    METHOD 1.B: acessar a partir da ficha de treino
-      (SEL. RULE: escolher este método quando o usuário já estiver visualizando uma ficha que contém o exercício)
-      OP. 1.B.1: abrir a ficha de treino
-      OP. 1.B.2: localizar o exercício
-      OP. 1.B.3: abrir os detalhes do exercício
-      OP. 1.B.4: selecionar "Histórico" ou "Ver progresso"
+    METHOD 2.A: consultar o histórico de treino
+      (SEL. RULE: escolher este método quando quiser consultar registros anteriores de treino)
+      OP. 2.A.1: localizar a opção "Histórico de treino"
+      OP. 2.A.2: tocar na opção
+      OP. 2.A.3: verificar se a área correspondente foi aberta
 
-  GOAL 2: analisar os registros anteriores
-    METHOD 2.A: consultar os dados apresentados
-      OP. 2.A.1: verificar as datas dos registros
-      OP. 2.A.2: comparar as cargas utilizadas
-      OP. 2.A.3: comparar as séries e repetições registradas
-      OP. 2.A.4: identificar as mudanças entre os registros disponíveis
+    METHOD 2.B: acessar as metas de peso
+      (SEL. RULE: escolher este método quando quiser consultar ou gerenciar suas metas de peso)
+      OP. 2.B.1: localizar a opção "Metas de peso"
+      OP. 2.B.2: tocar na opção
+      OP. 2.B.3: verificar se a área correspondente foi aberta
+
+    METHOD 2.C: consultar as conquistas
+      (SEL. RULE: escolher este método quando quiser visualizar suas conquistas no aplicativo)
+      OP. 2.C.1: localizar a opção "Minhas Conquistas"
+      OP. 2.C.2: tocar na opção
+      OP. 2.C.3: verificar se a área correspondente foi aberta
+
+    METHOD 2.D: acessar as configurações
+      (SEL. RULE: escolher este método quando quiser consultar ou alterar as configurações disponíveis)
+      OP. 2.D.1: localizar a opção "Configurações"
+      OP. 2.D.2: tocar na opção
+      OP. 2.D.3: verificar se a área correspondente foi aberta
 ```
 
 ### Explicação da funcionalidade
 
-O histórico permite que o usuário consulte os dados registrados em sessões anteriores e compare seu desempenho ao longo do tempo. O acesso pode acontecer pela área geral de progresso ou diretamente pela ficha de treino. Depois de abrir o histórico do exercício, o usuário analisa as datas, cargas, séries e repetições registradas.
+A tela “Meu Perfil” reúne informações sobre o usuário, quantidade de treinos, seguidores e pessoas seguidas. Também apresenta um gráfico de atividade semanal, opções para acessar o histórico de treino, metas de peso, conquistas e configurações, além de um resumo do último registro de treino.
 
-A apresentação dessas informações deve ser clara e facilitar a comparação entre sessões. O aplicativo deve evitar conclusões automáticas sobre evolução com base em um único indicador, pois o desempenho pode depender de diferentes fatores.
+O modelo GOMS representa o acesso a essas áreas como métodos alternativos. O usuário escolhe o caminho conforme seu objetivo: consultar registros anteriores, verificar metas, visualizar conquistas ou acessar configurações.
 
-## 5. Relação com a pesquisa com usuários
+A organização dessas opções em uma única tela facilita a localização de informações pessoais e funcionalidades relacionadas ao acompanhamento da rotina de exercícios.
 
-As funcionalidades analisadas estão relacionadas às necessidades identificadas na pesquisa:
+---
 
-* **Organização dos treinos:** criação de fichas personalizadas para facilitar o planejamento.
-* **Registro de exercícios e cargas:** execução do treino com registro de séries e repetições.
-* **Indisponibilidade de equipamentos:** substituição de exercícios para ajudar a manter a continuidade da atividade.
-* **Acompanhamento da evolução:** consulta ao histórico para comparar registros anteriores.
+## 5. Relação com a pesquisa de usuários
+
+Os modelos foram definidos considerando o protótipo e as dificuldades identificadas no questionário aplicado aos usuários.
+
+A presença da tela “Meus Treinos” está relacionada à necessidade de organizar e consultar os treinos. A possibilidade de iniciar uma nova atividade atende à proposta de facilitar o acesso à prática de exercícios. Já a tela inicial introduz um componente social, permitindo interações com publicações de outros usuários. Por fim, o perfil reúne informações de atividade e acesso ao histórico, às metas e às conquistas.
+
+Essas funcionalidades representam diferentes necessidades: organização dos treinos, praticidade durante o uso, interação social e consulta às informações pessoais.
 
 ## 6. Conclusão
 
-A análise contempla um HTA e três modelos GOMS, cobrindo quatro funcionalidades do aplicativo: executar e registrar o treino, criar uma ficha personalizada, substituir um exercício e consultar a evolução.
+A análise de tarefas contempla um HTA e três modelos GOMS, abrangendo quatro funcionalidades principais do protótipo: iniciar um treino salvo, interagir com publicações, iniciar um novo treino e consultar as opções do perfil.
 
-O HTA apresenta a decomposição hierárquica da execução do treino e os planos de execução de cada nó com múltiplos filhos. Os modelos GOMS detalham os objetivos, métodos alternativos, regras de seleção e operadores envolvidos nas demais tarefas.
+O HTA demonstra a decomposição hierárquica da tarefa de iniciar um treino salvo, incluindo os planos de execução nos nós com múltiplos filhos. Os modelos GOMS detalham os objetivos, os métodos alternativos, as regras de seleção e os operadores envolvidos nas demais interações.
 
-Esses modelos podem orientar a arquitetura da informação, o desenho das telas e a definição dos fluxos de navegação do aplicativo. Os nomes de telas e botões apresentados são propostas que deverão ser adequadas ao protótipo final.
+Os resultados podem orientar as próximas etapas do projeto, especialmente a arquitetura da informação, a definição dos fluxos de navegação e o desenvolvimento dos protótipos. Os comportamentos das telas seguintes aos botões ainda deverão ser definidos pela equipe quando as funcionalidades forem especificadas por completo.
