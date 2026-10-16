@@ -4,9 +4,9 @@ Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), 
 
 Este projeto é desenvolvido pelos seguintes alunos:
 
-- Gabriel Fabiani
-- Vinicius Santos
-- Yan Argolo
+- Nome Componente 1
+- Nome Componente 2
+- Nome Componente 3
 
 ## Conhecendo o problema
 
