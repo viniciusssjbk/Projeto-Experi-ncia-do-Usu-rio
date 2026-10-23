@@ -2,7 +2,6 @@
 
 > **_NOTE:_**: O fator mais importante desta entrega é a equipe conseguir identificar e documentar prints de telas de interfaces concorrentes (ou interfaces representativas para o público alvo). Esses prints serão usados na fase de caracterização de padrões, affordances, heurísticas, etc. CONCORRENTE NÃO É IDÊNTICO E SIM ATUANDO NA MESMA ÁREA
 
-
 ## 1. Mapeamento de Concorrentes Principais
 ### 1.2. Hevy
 > **Foco:** B2C / Acompanhamento Social de Treinos e Alta Performance.
