@@ -1,27 +1,31 @@
+# Personas — Sistema de Gestão e Acompanhamento de Treinos em Academias
+
+> **Nota metodológica:** As personas abaixo representam perfis fictícios construídos a partir de necessidades e comportamentos identificados na pesquisa. Os nomes, as idades e as ocupações são ilustrativos, pois essas informações não foram coletadas no questionário. As características específicas de cada perfil deverão ser validadas com novas entrevistas.
+
 ## 1. Persona Primária I: Lucas Ferreira
 
 ![Lucas Ferreira](imagens/personaII.jpeg)
 
 | Campo | Descrição |
 | :--- | :--- |
-| **Tipo de Persona** | Persona Primária (Segmento: Praticante Regular Focado em Agilidade) |
-| **Idade** | 24 anos |
-| **Ocupação** | Analista Júnior / Estudante |
-| **Citação** | *"Quero abrir o aplicativo e já saber o que tenho que fazer hoje sem perder tempo."* |
-| **Nível de Tecnologia** | Alto — usa smartphone constantemente e tem facilidade com apps modernos. |
-| **Objetivos** | Encontrar o treino do dia imediatamente ao abrir o app; registrar cargas e repetições em poucos toques; acompanhar a evolução histórica sem complexidade. |
-| **Frustração Principal** | Ter que navegar por telas complexas ou cadastrar dados manualmente no meio do treino; cobrança abusiva por funções básicas como histórico. |
+| **Tipo de Persona** | Primária — praticante regular que prioriza agilidade e organização dos treinos. |
+| **Idade** | 24 anos (ilustrativa). |
+| **Ocupação** | Analista Júnior / Estudante (ilustrativa). |
+| **Citação** | "Quero encontrar meu treino rapidamente e registrar as cargas sem interromper meu ritmo." |
+| **Familiaridade com tecnologia** | A validar. Utiliza ou conhece alternativas digitais de registro, mas seu nível de domínio tecnológico não foi medido na pesquisa. |
+| **Objetivos** | Consultar o treino do dia rapidamente; registrar exercícios, séries, repetições e cargas; consultar o histórico; acompanhar a evolução ao longo do tempo. |
+| **Frustração principal** | Esquecer exercícios ou cargas, perder tempo registrando informações e depender de aplicativos que apresentam falhas, limitações ou funcionalidades pagas. |
 
 ### Mapa de Empatia — Lucas Ferreira
 
 | Quadrante | Descrição |
 | :--- | :--- |
-| **O que vê** | Salão de musculação movimentado, aparelhos ocupados nos horários de pico, pessoas conferindo anotações ou presas a telas de celulares. |
-| **O que ouve** | Reclamações de colegas sobre apps de treino caros e cheios de anúncios; conversas sobre progressão de carga e divisão de treinos. |
-| **O que diz e faz** | Treina cerca de 4 vezes por semana; tenta registrar cargas rapidamente entre as séries; alterna a ordem dos exercícios caso o aparelho esteja ocupado. |
-| **O que pensa e sente** | Quer otimizar o tempo de treino para não atrasar suas outras obrigações; sente frustração quando perde o ritmo tentando registrar séries em interfaces lentas. |
-| **Dores** | Esquecimento dos exercícios do dia; dificuldade de registrar progressão de sobrecarga com agilidade; interfaces burocráticas e excesso de cliques. |
-| **Ganhos** | Acesso instantâneo ao treino do dia, interface limpa e objetiva, registro fluido de repetições/cargas e histórico de evolução acessível. |
+| **O que vê** | Academia movimentada, equipamentos ocupados e diferentes formas de consultar os treinos, como aplicativos, anotações e memória. |
+| **O que ouve** | Comentários sobre progressão de cargas, organização dos exercícios e dificuldades relacionadas à disponibilidade de aparelhos. |
+| **O que diz e faz** | Treina regularmente, consulta informações sobre os exercícios e procura registrar o que realizou. Pode alterar a ordem das atividades quando um equipamento está ocupado. |
+| **O que pensa e sente** | Deseja manter a constância e perceber resultados sem transformar o registro em uma tarefa demorada. |
+| **Dores** | Esquecimento dos exercícios; dificuldade para lembrar as cargas utilizadas; registro demorado; perda de informações ou falhas na atualização do treino. |
+| **Ganhos** | Acesso rápido ao treino do dia, registro simples, histórico confiável e visualização clara da evolução. |
 
 ---
 
@@ -31,24 +35,26 @@
 
 | Campo | Descrição |
 | :--- | :--- |
-| **Tipo de Persona** | Persona Primária (Segmento: Praticante em Fase de Consolidação / Orientação) |
-| **Idade** | 26 anos |
-| **Ocupação** | Assistente Administrativa |
-| **Citação** | *"Quero entender o que preciso fazer sem ter que ficar procurando tudo durante o treino."* |
-| **Nível de Tecnologia** | Médio — utiliza apps essenciais do dia a dia (redes sociais, bancos, produtividade básica). |
-| **Objetivos** | Ter clareza sobre séries, repetições e intervalos de descanso; executar os movimentos corretamente por meio de suporte visual/instruções; fixar a rotina de treinos. |
-| **Frustração Principal** | Aplicativos com catálogo de exercícios limitado, interfaces confusas ou que exigem criação manual de fichas do zero. |
+| **Tipo de Persona** | Primária — praticante em fase de consolidação da rotina de treinos. |
+| **Idade** | 26 anos (ilustrativa). |
+| **Ocupação** | Assistente Administrativa (ilustrativa). |
+| **Citação** | "Quero saber quais exercícios preciso fazer e acompanhar meu progresso sem complicar minha rotina." |
+| **Familiaridade com tecnologia** | A validar. O questionário identificou diferentes formas de organizar os treinos, mas não mediu diretamente a familiaridade tecnológica. |
+| **Objetivos** | Organizar os exercícios; consultar séries e repetições; compreender as informações do treino; manter uma rotina consistente e acompanhar os resultados. |
+| **Frustração principal** | Ter dificuldade para lembrar os exercícios, encontrar orientações claras e registrar as atividades quando está com pouco tempo. |
 
 ### Mapa de Empatia — Mariana Alves
 
 | Quadrante | Descrição |
 | :--- | :--- |
-| **O que vê** | Muitas máquinas diferentes na academia, fichas de papel amassadas ou desorganizadas, praticantes experientes executando treinos com autonomia. |
-| **O que ouve** | Instrutores com pouco tempo para acompanhamento contínuo; amigos dizendo que "o segredo é a constância e a execução correta". |
-| **O que diz e faz** | Tenta manter uma rotina consistente apesar da rotina corrida; consulta anotações no celular com frequência durante o treino; pede ajuda quando tem dúvida. |
-| **O que pensa e sente** | Insegura em relação à execução de alguns movimentos e ao tempo ideal de descanso; teme errar e acabar se lesionando ou não tendo resultados. |
-| **Dores** | Falta de suporte visual sobre a execução; esquecimento da ordem dos exercícios; perda de tempo procurando detalhes sobre a ficha durante a sessão. |
-| **Ganhos** | Instruções claras com suporte visual/vídeo de execução, temporizador automático de descanso, visualização descomplicada de séries e repetições. |
+| **O que vê** | Diferentes equipamentos, fichas de treino, aplicativos e praticantes com níveis variados de experiência. |
+| **O que ouve** | Orientações sobre execução dos movimentos, aquecimento, descanso e importância da regularidade nos treinos. |
+| **O que diz e faz** | Procura consultar as informações dos exercícios e organizar as atividades, recorrendo a anotações, aplicativos ou ajuda de outras pessoas quando necessário. |
+| **O que pensa e sente** | Quer compreender o que precisa fazer e ter segurança para seguir o treino sem depender de informações difíceis de encontrar. |
+| **Dores** | Dúvidas sobre os exercícios; esquecimento da ordem das atividades; dificuldade para encontrar informações sobre execução, aquecimento e descanso. |
+| **Ganhos** | Interface clara, sequência organizada de exercícios, informações fáceis de consultar e histórico que permita visualizar o progresso. |
+
+**Observação:** as necessidades relacionadas à execução dos movimentos e ao descanso apareceram nas respostas, mas devem ser investigadas com mais participantes. Por isso, recursos como vídeos explicativos e temporizadores são possibilidades a validar, e não requisitos definitivos.
 
 ---
 
@@ -58,34 +64,48 @@
 
 | Campo | Descrição |
 | :--- | :--- |
-| **Tipo de Persona** | Persona Secundária (Segmento: Praticante Avançado / Autônomo) |
-| **Idade** | 31 anos |
-| **Ocupação** | Engenheiro de Software |
-| **Citação** | *"O aplicativo deve me ajudar a controlar meu treino, não decidir tudo por mim."* |
-| **Nível de Tecnologia** | Muito Alto — avançado, busca personalização profunda e valoriza controle fino de dados. |
-| **Objetivos** | Personalizar e reordenar treinos livremente; acompanhar gráficos avançados de progressão de carga; usar o app como ferramenta de registro flexível. |
-| **Frustração Principal** | Aplicativos com fluxos rígidos, regras engessadas e falta de flexibilidade para substituir exercícios ou ajustar parâmetros em tempo real. |
+| **Tipo de Persona** | Secundária — praticante experiente e autônomo. |
+| **Idade** | 31 anos (ilustrativa). |
+| **Ocupação** | Engenheiro de Software (ilustrativa). |
+| **Citação** | "Quero acompanhar minha evolução e adaptar meu treino quando for necessário, sem perder meu histórico." |
+| **Familiaridade com tecnologia** | A validar. A experiência avançada com aplicativos e ferramentas de registro é uma hipótese desse perfil, não uma conclusão da pesquisa. |
+| **Objetivos** | Registrar parâmetros dos exercícios; consultar cargas anteriores; comparar o desempenho entre sessões; organizar e adaptar os treinos conforme as necessidades. |
+| **Frustração principal** | Perder registros de evolução, encontrar limitações para editar o treino e não conseguir consultar facilmente as informações acumuladas. |
 
 ### Mapa de Empatia — André Costa
 
 | Quadrante | Descrição |
 | :--- | :--- |
-| **O que vê** | Aparelhos específicos que utiliza ocupados, pessoas dependendo de treinos genéricos pré-definidos por sistemas automatizados. |
-| **O que ouve** | Debates técnicos sobre periodização de treino, volume semanal e técnicas avançadas de hipertrofia. |
-| **O que diz e faz** | Treina com frequência alta; memoriza boa parte dos exercícios mas prefere registrar parâmetros técnicos; altera a ordem ou varia exercícios conforme a lotação. |
-| **O que pensa e sente** | Quer total autonomia sobre a estrutura do treino; sente que a maioria dos apps no mercado é feita apenas para iniciantes ou é muito engessada. |
-| **Dores** | Dificuldade para substituir exercícios rapidamente na sessão; falta de métricas avançadas e gráficos de evolução detalhados; bloqueios do sistema. |
-| **Ganhos** | Total flexibilidade para edição de fichas, reordenação de exercícios em tempo real, controle autônomo de descansos e visualização analítica do progresso. |
+| **O que vê** | Aplicativos de acompanhamento, registros anteriores e situações em que é necessário adaptar a sequência dos exercícios. |
+| **O que ouve** | Conversas sobre progressão de carga, organização dos treinos, volume de exercícios e acompanhamento de resultados. |
+| **O que diz e faz** | Mantém uma rotina de exercícios, utiliza informações anteriores para orientar as sessões e procura adaptar as atividades quando necessário. |
+| **O que pensa e sente** | Valoriza a autonomia para organizar os exercícios e deseja ter acesso aos próprios dados sem perder flexibilidade. |
+| **Dores** | Histórico incompleto, dificuldade para comparar cargas e limitações na organização ou alteração dos exercícios. |
+| **Ganhos** | Histórico detalhado, gráficos de evolução, edição dos treinos e facilidade para consultar informações anteriores. |
+
+**Observação:** a pesquisa contou com apenas um participante identificado como atleta. Portanto, esse perfil deve continuar como persona secundária exploratória até que sejam coletadas mais respostas de praticantes experientes.
 
 ---
 
-## Resumo Comparativo das Personas
+## 4. Resumo Comparativo das Personas
 
-| Persona | Tipo | Segmento Mapeado | Foco Principal | Principal Ponto de Atenção |
-| :--- | :--- | :--- | :--- | :--- |
-| **Lucas Ferreira** | Primária | Praticante Regular | Agilidade e Registro Rápido | Minimizar toques na tela e abrir direto no treino do dia. |
-| **Mariana Alves** | Primária | Praticante em Consolidação | Orientação e Clareza | Oferecer suporte visual de execução e temporizador de descanso. |
-| **André Costa** | Secundária | Praticante Autônomo | Personalização e Controle | Permitir edição flexível de séries, cargas e substituição de exercícios. |
+| Persona | Tipo | Necessidade principal | Prioridade para o sistema |
+| :--- | :--- | :--- | :--- |
+| **Lucas Ferreira** | Primária | Consultar e registrar o treino com rapidez. | Acesso ao treino do dia, registro de exercícios e cargas e histórico. |
+| **Mariana Alves** | Primária | Organizar os exercícios e compreender as informações do treino. | Visualização clara dos exercícios, séries, repetições e progresso. |
+| **André Costa** | Secundária | Acompanhar a evolução e manter autonomia sobre o treino. | Histórico detalhado, gráficos e flexibilidade de edição. |
 
----
+## 5. Relação das Personas com a Pesquisa
 
+A pesquisa realizada pelo grupo recebeu 14 respostas e revelou pontos importantes para orientar o desenvolvimento:
+
+- **11 de 14 participantes (78,6%)** informaram que frequentam academia atualmente.
+- **10 de 14 participantes (71,4%)** atribuíram nota 5, em uma escala de 1 a 5, à importância de visualizar rapidamente o treino do dia.
+- **7 de 14 participantes (50%)** relataram utilizar principalmente a memória para consultar os exercícios, incluindo uma resposta que combina memorização com a escolha de equipamentos disponíveis.
+- **7 de 14 participantes (50%)** afirmaram registrar os treinos sempre ou frequentemente.
+
+Os resultados dão sustentação principalmente às necessidades de consulta rápida, registro e acompanhamento do histórico. Também foram relatadas dificuldades para lembrar exercícios e cargas, adaptar a ordem das atividades e encontrar informações claras.
+
+As personas devem orientar a interface sem transformar todas as possibilidades em funcionalidades obrigatórias. O núcleo do sistema deve priorizar cadastro e organização dos treinos, registro de exercícios, dashboard de evolução e relatórios de progresso.
+
+**Limitação da pesquisa:** os respondentes foram identificados como alunos ou atletas; não há representação específica de personal trainers na amostra. Caso esse público continue fazendo parte do escopo do projeto, será necessário entrevistá-lo para identificar suas necessidades de gerenciamento de múltiplos alunos.
