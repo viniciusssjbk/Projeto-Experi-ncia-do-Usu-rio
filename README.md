@@ -59,6 +59,7 @@ O sistema será utilizado principalmente no ambiente de academias, durante e ap�
 - [Análise de Tarefas](src/6_analise_tarefas.md)
 - [Requisitos de UX e Metas de Usabilidade](src/7_requisitos_ux.md)
 - [Arquitetura de Informação e Fluxo do Usuário](src/8_arquitetura_fluxo.md)
+  
 
 ### Prototipação
 - [Prototipação em Papel](src/9_prototipacao_papel.md)
