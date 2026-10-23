@@ -8,7 +8,7 @@ caracterizando o comportamento e os padrões do público-alvo antes da definiç�
 sobre gênero, escolaridade, renda localização e demais informações nesta etapa ainda não se foi obtido através das pesquisas
 
 
-3) **Perfil Comportamental e Tecnológico**
+2) **Perfil Comportamental e Tecnológico**
    
 Público-alvo: Frequentadores de academia regulares e praticantes de musculação/atividade física.
 
