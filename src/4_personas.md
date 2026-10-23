@@ -88,3 +88,4 @@
 | **André Costa** | Secundária | Praticante Autônomo | Personalização e Controle | Permitir edição flexível de séries, cargas e substituição de exercícios. |
 
 ---
+
