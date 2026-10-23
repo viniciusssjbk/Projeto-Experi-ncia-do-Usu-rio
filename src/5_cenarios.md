@@ -164,4 +164,3 @@ journey
       Treinar sem salvar métricas de sobrecarga: 3: André
       Terminar sem dados para análise histórica: 2: André
 ```
-   
