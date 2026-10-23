@@ -95,7 +95,6 @@ Um integrante conduzirá a entrevista e registrará as respostas. A gravação d
 9. Em uma escala de 1 a 5, qual é a importância de visualizar rapidamente a evolução dos treinos?
 10. O que você gostaria que um sistema de gestão e acompanhamento de treinos oferecesse?
 
-
 ## Resultado esperado da coleta
 
 A aplicação das três técnicas permitirá combinar dados quantitativos do questionário com informações qualitativas das entrevistas e do grupo focal. Com isso, a equipe poderá compreender melhor as necessidades dos dois públicos, identificar problemas recorrentes e priorizar funcionalidades antes de desenvolver personas, cenários de uso e protótipos.
