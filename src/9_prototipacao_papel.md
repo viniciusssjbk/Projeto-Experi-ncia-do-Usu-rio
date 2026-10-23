@@ -9,3 +9,4 @@
 
 Possíveis usuários disseram que o design inicial está muito bom, mas parece confuso em alguns pontos.
 <img width="1280" height="904" alt="Prototipacao Papel" src="https://github.com/user-attachments/assets/6a843f0f-38c9-4105-9cb3-0e1b4f0f4177" />
+
