@@ -236,3 +236,4 @@ A justificativa se baseia nas necessidades descritas na análise de tarefas forn
 A arquitetura organiza o aplicativo em três áreas principais — Tela inicial, Meus Treinos e Meu Perfil — e distribui as funcionalidades secundárias de acordo com os objetivos dos usuários. Os quatro fluxos detalham os caminhos para iniciar um treino salvo, interagir com uma publicação, iniciar um novo treino e consultar opções do perfil, incluindo decisões, alternativas e estados de erro e sucesso.
 
 A entrega também evidencia pontos que precisam ser definidos pela equipe antes da prototipação final, especialmente a próxima etapa de “Iniciar novo treino” e as interfaces de comentários e compartilhamento. Essa definição permitirá transformar os fluxos conceituais em telas e interações consistentes.
+
