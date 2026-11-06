@@ -1,6 +1,7 @@
 1) **Planejamento de Usabilidade (método DECIDE)**
 
 | **D** | Avaliar se frequentadores de academias e personal trainers conseguem utilizar o aplicativo com facilidade para organizar treinos e acompanhar resultados. |
+| :---: | :---- |
 | **E** | Verificar se os usuários conseguem cadastrar treinos, registrar exercícios, consultar o dashboard e compreender os relatórios de evolução.  |
 | **C** | Aplicar testes de usabilidade, questionários e observação direta durante a utilização do aplicativo. |
 | **I** | Convidar de 5 a 8 participantes, entre frequentadores de academias e personal trainers. As avaliações serão realizadas utilizando computadores ou smartphones. |
