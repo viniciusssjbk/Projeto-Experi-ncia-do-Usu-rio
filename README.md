@@ -68,4 +68,5 @@ O sistema será utilizado principalmente no ambiente de academias, durante e ap�
 ### Avaliação
 - [Planejamento da Avaliação](src/11_planejamento_avaliacao.md)
 - [Avaliação de Usabilidade através de Inspeção Heurística](src/12_heuristica.md)
+- [Teste de usabilidade](src/13_teste_usabilidade.md)
 
