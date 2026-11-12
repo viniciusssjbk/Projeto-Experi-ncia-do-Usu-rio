@@ -65,3 +65,7 @@ O sistema será utilizado principalmente no ambiente de academias, durante e ap�
 - [Prototipação em Papel](src/9_prototipacao_papel.md)
 - [Prototipação de Alta Fidelidade (FIGMA)](src/10_prototipacao_figma.md)
 
+- ### Avaliação
+- [Planejamento da Avaliação](src/11_planejamento_avaliacao.md)
+- [Avaliação de Usabilidade através de Inspeção Heurística](src/12_heuristica.md)
+
