@@ -1,4 +1,4 @@
-1) **Avaliação de IHC através de inspeção HEURÍSTICA [1 solução completa por pessoa da equipe \- todas as telas do projeto]**
+1) **Avaliação de IHC através de inspeção HEURÍSTICA [1 solução completa por pessoa da equipe - todas as telas do projeto]**
 
 ---
 
